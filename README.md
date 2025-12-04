@@ -2,10 +2,10 @@
 
 This repository demonstrates a DLL side-loading attack using `GUP.exe` and provides a comprehensive detection and monitoring tool to identify such attacks in real-time on Windows systems.
 
-> **⚠️ Educational Use Only:**  
+> **Educational Use Only:**  
 > This is a course project for the *"Malware Modus Operandi"* class at UIT. Everything in this repository is **strictly for educational purposes only**.
 
-## 🧪 Proof-of-Concept (PoC)
+## Proof-of-Concept (PoC)
 
 The PoC illustrates DLL side-loading through `GUP.exe`, commonly associated with Notepad++. Two PoC components are included:
 
@@ -21,7 +21,7 @@ Full attack simulation that:
 - Creates a `.vbs` persistence script in `%APPDATA%`.
 - Registers the script in the Windows Registry (`HKCU\Software\Microsoft\Windows\CurrentVersion\Run`) for persistence.
 
-## 🔍 Detection and Monitoring Tool
+## Detection and Monitoring Tool
 
 A Python-based tool that provides multi-layered detection and real-time monitoring for DLL side-loading behavior.
 
@@ -47,5 +47,6 @@ A Python-based tool that provides multi-layered detection and real-time monitori
 - **Logging & alerts**:
   - Color-coded terminal logs and persistent `.log` file.
   - GUI pop-up alerts via `tkinter`.
+
 
 # DLL-Side-Loading
